@@ -20,9 +20,9 @@ title                    : "Home"
 title_separator          : "-"
 name                     : "Awakened"
 description              : "Mostly about programming and hacking stuffs"
-url                      : https://awakened1712.github.io
+url                      : https://gl-shader.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : awakened1712/awakened1712.github.io
+repository               : gl-shader/gl-shader.github.io
 teaser                   : # "/assets/teaser.jpg"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -128,8 +128,8 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-  email            : awakened.1712@gmail.com
-  location         : "Singapore"
+  email            : drafsanjani@gmail.com
+  location         : "Indonesia"
 
 # Reading Files
 include:
