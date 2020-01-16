@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
-name                     : "Awakened"
+name                     : "Hamzar"
 description              : "Mostly about programming and hacking stuffs"
 url                      : https://gl-shader.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Awakened"
+  name             : "Hamzar"
   avatar           : "/assets/img/avatar1.jpg"
   bio              : "a security researcher"
   uri              : "/about/"
@@ -109,7 +109,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "Hamzar212"
   foursquare       :
   github           :
   gitlab           :
