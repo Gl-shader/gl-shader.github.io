@@ -1,6 +1,6 @@
 ---
 title:  "Hello World!"
-date:   2018-03-26 17:22:33 +0800
+date:   2020-03-26 17:22:33 +0800
 categories: glsl
 classes:
   - landing
@@ -14,7 +14,16 @@ header:
 
  Dalam teks rendering GPU-land adalah tugas yang terlalu rumit untuk langkah pertama, alih-alih kami akan memilih warna sambutan yang cerah untuk meneriakkan antusiasme kami!
 
- <div class = "codeAndCanvas" data = "hello_world.frag"> </div>
+ <div class = "codeAndCanvas" data = "#ifdef GL_ES
+precision mediump float;
+#endif
+
+uniform float u_time;
+
+void main() {
+	gl_FragColor = vec4(1.0,0.0,1.0,1.0);
+}
+"> </div>
 
  Jika Anda membaca buku ini di browser, blok kode sebelumnya bersifat interaktif.  Itu berarti Anda dapat mengklik dan mengubah bagian mana pun dari kode yang ingin Anda jelajahi.  Perubahan akan segera diperbarui berkat arsitektur GPU yang mengkompilasi dan mengganti shader * dengan cepat *.  Cobalah dengan mengubah nilai pada baris 8.
 
